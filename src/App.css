@@ -1,0 +1,37 @@
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 100px;
+  font-size: 50px;
+  cursor: pointer;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gameContainer {
+  text-align: center;
+  margin-top: 250px;
+}
+
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
+
+input[type="text"] {
+  text-align: center;
+  width: 225px;
+  padding: 5px;
+  font-size: 35px;
+}
+
+.cellInput {
+  width: 225px;
+}
+
